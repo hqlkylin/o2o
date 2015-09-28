@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>个人中心首页</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<meta name="keywords" content="your keywords">
+    	<meta name="description" content="your description">
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" href="../css/zhuanti.css" />
+		<link rel="stylesheet" href="../css/user.css" />		
+		<script src="../js/jquery-11.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/user.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/base.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/datePlugin.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头部star-->
+		<div id="header">
+			<div class="wrapper">
+				<div class="box">
+					<h1><a href="#"><img src="../images/user/user-logo.png" alt="集美家居个人中心"/></a></h1>
+					<div class="members"><span>|</span>欢迎<strong>某某某会员</strong><a href="#">[退出]</a></div>
+					<div class="manage">
+						<a href="#" class="first">首页</a>
+						<dl>
+							<dt class="bg icon1">账户管理</dt>
+							<dd class="active">
+								<a href="user-account.html" target="_blank" class="bg icon3">账户设置</a>
+								<a href="user-person.html" target="_blank" class="bg icon3">个人信息</a>
+								<a href="user-address.html" target="_blank" class="bg icon3">收货地址</a>
+								<a href="user-modifypsd.html" target="_blank" class="bg icon3">修改密码</a>
+								<a href="user-safe.html" target="_blank" class="bg icon3">安全中心</a>
+								<a href="user-myvip.html" target="_blank" class="bg icon3">我的会员</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="seach">
+						<form action="">
+							<input type="text" class="text" value="" placeholder="爱依瑞斯 双人床 爱依瑞斯 双人床" />
+							<input type="submit" class="sunmit" value="搜索" />
+						</form>
+					</div>
+					<a href="#" class="home">返回集美首页</a>
+					<div class="clear"></div>
+				</div>			
+			</div>			
+		</div>		
+		<!--头部end-->
+		<div class="wrapper user">
+			<!--左侧star-->
+			<div class="FL user-nav">
+				<dl>
+					<dt>
+						<span class="icon1"></span>
+						<p class="pointer"><strong>关注中心</strong></p>
+					</dt>
+					<dd>
+						<p>
+							<a href="focused-brand.html"><span>关注品牌</span></a>
+							<a href="focused-activity.html"><span>关注活动</span></a>
+							<a href="focused-history.html"><span>浏览历史</span></a>
+						</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<span class="icon2"></span>
+						<p class="pointer"><strong>我的收藏</strong></p>
+					</dt>
+					<dd>
+						<p>
+							<a href="favorite-ware.html"><span>商品</span></a>
+							<a href="favorite-made.html"><span>购买行程</span></a>
+						</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<span class="icon3"></span>
+						<p><strong>订单中心</strong></p>
+					</dt>
+					<dd>
+						<p>
+							<a href="user-oc-myorder.html"><span>我的订单</span></a>
+							<a href="user-oc-canceled.html"><span>取消订单记录</span></a>
+						</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<span class="icon4"></span>
+						<p class="pointer"><strong>我的互动</strong></p>
+					</dt>
+					<dd>
+						<p>
+							<a href="user-ssp-signup.html"><span>我的报名</span></a>
+							<a href="user-ssp-snapping.html"><span>我的抢购</span></a>
+							<a href="user-ssp-prize.html"><span>获奖记录</span></a>
+						</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<span class="icon5"></span>
+						<p class="pointer"><a href="coupon.html"><strong>我的优惠券</strong></a></p>
+					</dt>
+				</dl>
+				<dl>
+					<dt>
+						<span class="icon6"></span>
+						<p class="pointer"><a href="user-mypoints.html"><strong>我的积分</strong></a></p>
+					</dt>
+				</dl>
+				<dl>
+					<dt>
+						<span class="icon7"></span>
+						<p class="pointer"><a href="user-mr-mymessage.html"><strong>我的留言/吐槽</strong></a></p>
+					</dt>
+				</dl>
+				<dl>
+					<dt>
+						<span class="icon8"></span>
+						<p class="pointer"><strong>账户管理</strong></p>
+					</dt>
+					<dd>
+						<p>
+							<a href="user-account.html"><span>账户设置</span></a>
+							<a href="user-person.html"><span>个性信息</span></a>
+							<a href="user-address.html"><span>收货地址</span></a>
+							<a href="user-modifypsd.html"><span>修改密码</span></a>
+							<a href="user-safe.html"><span>安全中心</span></a>
+							<a href="user-myvip.html"><span>集美VIP</span></a>
+						</p>
+					</dd>
+				</dl>
+			</div>
+			<!--左侧end-->
+			<!--右侧star-->
+			<div class="FR wrap" id="user-index">
+				<div class="main">
+					<div class="user-info">
+						<!--会员头像-->
+						<div class="photo FL">
+							<img src="../images/ac/photo.png" alt="" />
+							<a href="#" target="_blank">编辑头像</a>
+						</div>
+						<!--会员账号-->
+						<div class="name FL">
+							<h3>nimolala_zln</h3>
+							<p>账号安全等级：<strong>低</strong><a href="#" target="_blank">提高安全等级</a></p>
+							<div class="data">
+								<span>报名<strong>(32)</strong></span>
+								<span>抢购<strong>(32)</strong></span>
+								<span>奖品<strong>(32)</strong></span>
+							</div>
+						</div>	
+						<!-- 互动数据相关star-->
+						<div class="user-data FL">
+							<ul>
+								<li class="bgcolor1"><a href="#" target="_blank"><p class="icon1">订单</p><strong>32</strong></a></li>
+								<li class="bgcolor2"><a href="#" target="_blank"><p class="icon2">优惠券</p><strong>32</strong></a></li>
+								<li class="bgcolor3"><a href="#" target="_blank"><p class="icon3">购买行程</p><strong>32</strong></a></li>
+								<li class="bgcolor4"><a href="#" target="_blank"><p class="icon4">关注活动</p><strong>32</strong></a></li>
+							</ul>
+						</div>
+					</div>					
+					<!--关注的活动star-->
+					<div class="activity FL">
+						<div class="user-title bgcolor1">
+							<span class="FL">关注的活动</span>
+							<a href="#" target="_blank" class="FR">+查看更多</a>
+						</div>
+						<div class="zt-list">
+							<a href="#" target="_blank">
+								<div class="empty">
+									<p>　　您还没有关注过活动呦，去逛逛吧！</p>
+								</div>
+							</a>
+							<!--<ul>
+								<li>
+									<div class="photo">
+										<a href="#" target="_blank"><img src="../images/ac/zt-img1.jpg"/></a>
+										<div class="state absolute bg icon1"><p>125天后结束</p></div>
+										<div class="act absolute bg icon1"><p>促销</p></div>
+									</div>
+									<div class="box">
+										<h3>集美家居端午“粽”动员</h3>
+										<p>大红门第二节实木家具节</p>
+										<dl>
+											<dd>实木</dd>
+											<dd>家具</dd>
+											<dd>3折</dd>
+											<dd>赢家电</dd>
+											<dd>送家电</dd>
+										</dl>
+										<div class="place FL"><span class="bg icon1">大红门店</span></div>
+										<div class="time FR"><span class="bg icon2">015-6-20~2015-7-19</span></div>
+										<a href="#" target="_blank">
+											<div class="profile">
+												<h4>活动简介</h4>
+												<p>
+													6月20日－22日，凡在集美家居购物即可享受超值豪礼买赠，买的多礼品价值越丰厚
+												</p>
+												<span>查看详情>></span>
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="photo">
+										<a href="#" target="_blank"><img src="../images/ac/zt-img2.jpg"/></a>
+										<div class="state absolute bg icon2"><p>10天后开始</p></div>
+										<div class="act absolute bg icon2"><p>抢购</p></div>
+									</div>
+									<div class="box">
+										<h3>集美家居端午“粽”动员</h3>
+										<p>大红门第二节实木家具节</p>
+										<dl>
+											<dd>实木</dd>
+											<dd>家具</dd>
+											<dd>3折</dd>
+											<dd>赢家电</dd>
+											<dd>送家电</dd>
+										</dl>
+										<div class="place FL"><span class="bg icon1">大红门店</span></div>
+										<div class="time FR"><span class="bg icon2">015-6-20~2015-7-19</span></div>
+										<a href="#" target="_blank">
+											<div class="profile">
+												<h4>活动简介</h4>
+												<p>
+													6月20日－22日，凡在集美家居购物即可享受超值豪礼买赠，买的多礼品价值越丰厚
+												</p>
+												<span>查看详情>></span>
+											</div>
+										</a>
+									</div>
+								</li>
+							</ul>
+						-->
+						</div>
+					</div>
+					<!--关注的活动end-->
+					<!--日历star-->
+						<script type="text/javascript">
+							$(function(){DateCalendar.init($(".calendar"));});
+						</script>
+						<div class="calendar FR" data-setting='{"dateTime":"2015/08/01","url":"../js/data.json"}'></div>
+					<!--日历end-->
+					<div class="clear"></div>
+					<!--今日推荐star-->
+					<div class="module">
+						<div class="user-title bgcolor3">
+							<span class="FL">今日推荐</span>
+						</div>
+						<div class="case products empty-bg1">
+							<a href="#" target="_blank">
+								<p class="empty">您还没有关注任何品牌，看到感兴趣的就果断关注吧！</p>
+							</a>
+							<!--<ul>
+								<li>
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床爱依瑞斯双人床爱依瑞斯双人床爱依瑞斯双人床</p></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+								</li>
+							</ul>
+						-->
+						</div>
+					</div>
+					<!--今日推荐end-->
+					<!--关注品牌star-->
+					 <div class="module">
+		                <div class="user-title bgcolor4">
+		                    <span class="FL">关注品牌</span>
+		                </div>
+		                <div class="case logo relative o-hidden empty-bg2">
+		                	<a href="#" target="_blank">
+								<p class="empty">您还没有关注任何品牌，看到感兴趣的就果断关注吧！</p>
+							</a>
+		                    <!--<ul class="scrollBar relative">
+		                        <li>
+		                            <img src="../images/ac/pic (1).JPG" alt=""/>
+		                            <a href="#" target="_blank"><p>东方百盛家具</p></a>
+		                            <span>关注度：<strong>153</strong></span>
+		                        </li>
+		                        <li>
+		                            <img src="../images/ac/logo-ac.png" alt=""/>
+		                            <a href="#" target="_blank"><p>东方百盛家具</p></a>
+		                            <span>关注度：<strong>153</strong></span>
+		                        </li>
+		                        <li>
+		                            <img src="../images/ac/pic (5).JPG" alt=""/>
+		                            <a href="#" target="_blank"><p>东方百盛家具</p></a>
+		                            <span>关注度：<strong>153</strong></span>
+		                        </li>
+		                        <li>
+		                            <img src="../images/ac/logo-ac.png" alt=""/>
+		                            <a href="#" target="_blank"><p>东方百盛家具</p></a>
+		                            <span>关注度：<strong>153</strong></span>
+		                        </li>
+		                        <li>
+		                            <img src="../images/ac/logo-ac.png" alt=""/>
+		                            <a href="#" target="_blank"><p>东方百盛家具</p></a>
+		                            <span>关注度：<strong>153</strong></span>
+		                        </li>
+		                        <li>
+		                            <img src="../images/ac/logo-ac.png" alt=""/>
+		                            <a href="#" target="_blank"><p>东方百盛家具</p></a>
+		                            <span>关注度：<strong>153</strong></span>
+		                        </li>
+		                    </ul>
+		                    <div class="btn previous"></div>
+		                    <div class="btn next"></div>-->
+		                </div>
+		            </div>
+					<!--关注品牌end-->
+					<!--收藏的商品star-->
+					<div class="module">
+						<div class="user-title bgcolor5">
+							<span class="FL">收藏的商品</span>
+							<a href="#" target="_blank" class="FR">+查看更多</a>
+						</div>
+						<div class="case products empty-bg3">
+							<a href="#" target="_blank">
+								<p class="empty">您还没有关注任何品牌，看到感兴趣的就果断关注吧！</p>
+							</a>
+							<!--<ul>
+								<li>
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+								</li>
+							</ul>
+							-->
+						</div>
+					</div>
+					<!--收藏的商品end-->
+					<!--浏览历史star-->
+					<div class="module">
+						<div class="user-title bgcolor6">
+							<span class="FL">浏览历史</span>
+							<a href="#" target="_blank" class="FR">+查看更多</a>
+						</div>
+						<div class="case products empty-bg4">
+							<a href="#" target="_blank">
+								<p class="empty">您还没有浏览过任何商品呦，去<span>转一转</span>吧！</p>
+							</a>
+							<!--<ul id="historyBox">
+								<li class="relative">
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+									<div class="close"></div>
+								</li>
+								<li class="relative">
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+									<div class="close"></div>
+								</li>
+								<li class="relative">
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+									<div class="close"></div>
+								</li>
+								<li class="relative">
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+									<div class="close"></div>
+								</li>
+								<li class="relative">
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+									<div class="close"></div>
+								</li>
+								<li class="relative">
+									<a href="#" target="_blank"><img src="../images/ac/pic1.jpg" alt="" /></a>
+									<span>大红门店</span>
+									<a href="#" target="_blank"><p>爱依瑞斯双人床</p></a>
+									<div class="close"></div>
+								</li>
+							</ul>
+						-->
+						</div>
+					</div>
+					<!--浏览历史end-->
+				</div>
+			</div>
+			<!--右侧end-->
+		</div>
+	</body>
+</html>

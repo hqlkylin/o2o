@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>重置密码第一步</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<meta name="keywords" content="your keywords">
+    	<meta name="description" content="your description">
+    	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" href="../css/member.css" />
+		<script src="../js/jquery-11.2.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头部star-->
+		<div id="header">
+			<div class="wrapper">
+				<div class="rect">
+					<h1><a href="#"><img src="../images/logo.png" alt="集美家居" /></a></h1>
+					<div class="seach">
+						<form action="">
+							<input type="text" class="text" value="" placeholder="爱依瑞斯 双人床 爱依瑞斯 双人床" />
+							<input type="submit" class="sunmit" value="搜　索" />
+						</form>
+					</div>
+					<div class="center">
+						<a href="#"><span class="icon1">店面分布</span></a>
+						<a href="#"><span class="icon2">我的关注</span></a>
+						<a href="#"><span class="icon3">个人中心</span></a>
+					</div>
+				</div>
+				<div class="nav">
+					<div class="genre">全部商品</div>
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="#">家具频道</a></li>
+						<li><a href="#">建材频道</a></li>
+						<li><a href="#">家饰频道</a></li>
+						<li><a href="#">家装频道</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<!--头部end-->
+		<div class="content">
+			<div class="main">
+				<h2>重置密码</h2>
+				<form>
+					<input type="text" value="" placeholder="请输入 注册的手机号码" class="text" />
+					<input type="text" value="" placeholder="图片验证码" class="text yzm-text FL" />
+					<div class="yzm-img FR">
+						<img src="../images/ac/yzm.png" />
+					</div>
+					<div class="clear"></div>
+					<input type="submit" value="下一步" class="btn submit"/>
+				</form>
+			</div>
+			<!--提示对话框-->
+			<div class="prompt">
+				<div class="dialog">
+					<p class="failure">请输入正确的手机号码</p>
+					<a href="#" class="sure">确定</a>
+				</div>
+				<div class="mask"></div>
+			</div>
+			<!--提示对话框end-->
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$(".btn").click(function(){
+					$(".prompt").show();
+				});
+				$(".prompt .sure").click(function(){
+					$(".prompt").hide();
+				});
+			});
+		</script>
+	</body>
+</html>

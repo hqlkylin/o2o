@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>已取消订单</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<meta name="keywords" content="your keywords">
+		<meta name="description" content="your description">
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/zhuanti.css" />
+		<link rel="stylesheet" href="../css/user.css" />
+		<link rel="stylesheet" href="../css/user-oc.css" />
+		<script src="../js/jquery-11.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/user.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/base.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<!--头部star-->
+		<div id="header">
+			<div class="wrapper">
+				<div class="box">
+					<h1><a href="#"><img src="../images/user/user-logo.png" alt="集美家居个人中心"/></a></h1>
+					<div class="members"><span>|</span>欢迎<strong>某某某会员</strong><a href="#">[退出]</a></div>
+					<div class="manage">
+						<a href="#" class="first">首页</a>
+						<dl>
+							<dt class="bg icon1">账户管理</dt>
+							<dd class="active">
+								<a href="user-account.html" target="_blank" class="bg icon3">账户设置</a>
+								<a href="user-person.html" target="_blank" class="bg icon3">个人信息</a>
+								<a href="user-address.html" target="_blank" class="bg icon3">收货地址</a>
+								<a href="user-modifypsd.html" target="_blank" class="bg icon3">修改密码</a>
+								<a href="user-safe.html" target="_blank" class="bg icon3">安全中心</a>
+								<a href="user-myvip.html" target="_blank" class="bg icon3">我的会员</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="seach">
+						<form action="">
+							<input type="text" class="text" value="" placeholder="爱依瑞斯 双人床 爱依瑞斯 双人床" />
+							<input type="submit" class="sunmit" value="搜索" />
+						</form>
+					</div>
+					<a href="#" class="home">返回集美首页</a>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<!--头部end-->
+		<div class="wrapper user">
+			<!--左侧star-->
+			<div class="FL user-nav">
+				<dl>
+					<dt>
+						<span class="icon1"></span>
+						<p class="pointer"><strong>关注中心</strong></p>
+					</dt>
+					<dd>
+						<p>
+							<a href="#"><span>关注品牌</span></a>
+							<a href="#"><span>关注活动</span></a>
+							<a href="#"><span>浏览历史</span></a>
+						</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<span class="icon2"></span>
+						<p class="pointer"><strong>我的收藏</strong></p>
+					</dt>
+					<dd>
+						<p>
+							<a href="#"><span>商品</span></a>
+							<a href="#"><span>购买行程</span></a>
+						</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<span class="icon3"></span>
+						<p class="pointer active"><strong>订单中心</strong></p>
+					</dt>
+					<dd class="show">
+						<p>
+							<a href="user-oc-myorder.html"><span>我的订单</span></a>
+							<a href="user-oc-canceled.html" class="active"><span>取消订单记录</span></a>
+						</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<span class="icon4"></span>
+						<p class="pointer"><strong>我的互动</strong></p>
+					</dt>
+					<dd>
+						<p>
+							<a href="user-ssp-signup.html"><span>我的报名</span></a>
+							<a href="user-ssp-snapping.html"><span>我的抢购</span></a>
+							<a href="user-ssp-prize.html"><span>获奖记录</span></a>
+						</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<span class="icon5"></span>
+						<p class="pointer"><a href="#"><strong>我的优惠券</strong></a></p>
+					</dt>
+				</dl>
+				<dl>
+					<dt>
+						<span class="icon6"></span>
+						<p class="pointer"><a href="user-mypoints.html"><strong>我的积分</strong></a></p>
+					</dt>
+				</dl>
+				<dl>
+					<dt>
+						<span class="icon7"></span>
+						<p class="pointer"><a href="user-mr-mymessage.html"><strong>我的留言/吐槽</strong></a></p>
+					</dt>
+				</dl>
+				<dl>
+					<dt>
+						<span class="icon8"></span>
+						<p class="pointer"><strong>账户管理</strong></p>
+					</dt>
+					<dd>
+						<p>
+							<a href="user-account.html"><span>账户设置</span></a>
+							<a href="user-person.html"><span>个性信息</span></a>
+							<a href="user-address.html"><span>收货地址</span></a>
+							<a href="user-modifypsd.html"><span>修改密码</span></a>
+							<a href="user-safe.html"><span>安全中心</span></a>
+							<a href="user-myvip.html"><span>集美VIP</span></a>
+						</p>
+					</dd>
+				</dl>
+			</div>
+			<!--左侧end-->
+
+			<!--右侧内容start-->
+			<div class="FR wrap" id="user-index">
+				<div class="right_oc main">
+					<h2>订单中心</h2>
+					<div class="u_w">
+						<ul>
+							<li><a href="user-oc-myorder.html">我的订单</a></li>
+							<li><a href="user-oc-canceled.html" class="active">已取消订单</a></li>
+						</ul>
+					</div>
+					<!--已取消订单start-->
+					<div class="oc_order">
+						<div class="oc_tit">
+							<div class="oc_w1">订单详情</div>
+							<div class="oc_w2">单价（元）</div>
+							<div class="oc_w3">数量</div>
+							<div class="oc_w4">实付款（元）</div>
+							<div class="oc_w5">交易状态</div>
+							<div class="oc_w6">操作</div>
+						</div>
+						<div class="oc_cont">
+							<div class="oc_cont0">
+								<div class="oc_top">
+									<span class="oc_fl oc_mlr"><input type="checkbox"/></span>
+									<span class="oc_fl c666">2015-08-11</span>
+									<span class="oc_fl oc_ml"><label class="c666">订单号&nbsp;:</label>&nbsp;<b class="c020202">201508113E9P</b></span>
+									<span class="oc_fr oc_mr"><a href="#" class="c666"><i></i>删除</a></span>
+								</div>
+								<div class="oc_bottom">
+									<div class="oc_bottom_left">
+										<div class="oc_w1 oc_1 oc_l">
+											<span class="oc_1_img"><img src="../images/ac/user-oc-order-icon.jpg"/></span>
+											<span class="oc_1_f1">爱依瑞斯沙发</span>
+											<span class="oc_1_f2">大红门店</span>
+										</div>
+										<div class="oc_w2 oc_t oc_blr c666">— —</div>
+										<div class="oc_w3 oc_t c666 oc_brr">— —</div>
+										<div class="oc_w1 oc_1 oc_l">
+											<span class="oc_1_img"><img src="../images/ac/user-oc-order-icon.jpg"/></span>
+											<span class="oc_1_f1">爱依瑞斯沙发</span>
+											<span class="oc_1_f2">大红门店</span>
+										</div>
+										<div class="oc_w2 oc_t oc_blr c666">— —</div>
+										<div class="oc_w3 oc_t c666 oc_brr">— —</div>
+
+									</div>
+
+									<div class="oc_bottom_right">
+										<div class="oc_w4 oc_t  c666">— —</div>
+										<div class="oc_w5 oc_t c666 oc_blr">订单已取消</div>
+										<div class="oc_w6 oc_t oc_p">
+											<span><a href="user-oc-info.html" class="oc_c">查看</a></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="oc_cont0">
+								<div class="oc_top">
+									<span class="oc_fl oc_mlr"><input type="checkbox"/></span>
+									<span class="oc_fl c666">2015-08-11</span>
+									<span class="oc_fl oc_ml"><label class="c666">订单号&nbsp;:</label>&nbsp;<b class="c020202">201508113E9P</b></span>
+									<span class="oc_fr oc_mr"><a href="#" class="c666"><i></i>删除</a></span>
+								</div>
+								<div class="oc_bottom">
+									<div class="oc_bottom_left">
+										<div class="oc_w1 oc_1 oc_l">
+											<span class="oc_1_img"><img src="../images/ac/user-oc-order-icon.jpg"/></span>
+											<span class="oc_1_f1">爱依瑞斯沙发</span>
+											<span class="oc_1_f2">大红门店</span>
+										</div>
+										<div class="oc_w2 oc_t oc_blr c666">— —</div>
+										<div class="oc_w3 oc_t c666 oc_brr">— —</div>
+
+									</div>
+
+									<div class="oc_bottom_right">
+										<div class="oc_w4 oc_t  c666">— —</div>
+										<div class="oc_w5 oc_t c666 oc_blr">订单已取消</div>
+										<div class="oc_w6 oc_t oc_p">
+											<span><a href="user-oc-info.html" class="oc_c">查看</a></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="oc_cont0">
+								<div class="oc_top">
+									<span class="oc_fl oc_mlr"><input type="checkbox"/></span>
+									<span class="oc_fl c666">2015-08-11</span>
+									<span class="oc_fl oc_ml"><label class="c666">订单号&nbsp;:</label>&nbsp;<b class="c020202">201508113E9P</b></span>
+									<span class="oc_fr oc_mr"><a href="#" class="c666"><i></i>删除</a></span>
+								</div>
+								<div class="oc_bottom">
+									<div class="oc_bottom_left">
+										<div class="oc_w1 oc_1 oc_l">
+											<span class="oc_1_img"><img src="../images/ac/user-oc-order-icon.jpg"/></span>
+											<span class="oc_1_f1">爱依瑞斯沙发</span>
+											<span class="oc_1_f2">大红门店</span>
+										</div>
+										<div class="oc_w2 oc_t oc_blr c666">— —</div>
+										<div class="oc_w3 oc_t c666 oc_brr">— —</div>
+
+									</div>
+
+									<div class="oc_bottom_right">
+										<div class="oc_w4 oc_t  c666">— —</div>
+										<div class="oc_w5 oc_t c666 oc_blr">订单已取消</div>
+										<div class="oc_w6 oc_t oc_p">
+											<span><a href="user-oc-info.html" class="oc_c">查看</a></span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!--已取消end-->
+				</div>
+				<!--右侧内容end-->
+			</div>
+		</div>
+	</body>
+
+</html>

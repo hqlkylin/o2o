@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>订单详情</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<meta name="keywords" content="your keywords">
+		<meta name="description" content="your description">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/pay.css" />
+		<script src="../js/jquery-11.2.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<!--头部star-->
+		<div class="header">
+			<div class="wrap">
+				<label>您好</label>
+				<span>1352139277</span>！
+				<a href="#" class="quit">[退出]</a>
+				<a href="#" class="change">[修改密码]</a>
+				<a href="#">订单查询</a>
+			</div>
+		</div>
+		<!--头部end-->
+		<div class="cont">
+			<div class="order-wrap">
+				<div class="order-tit">
+					<p class="order-f1">订单详情</p>
+					<p class="order-f2">您的订单已提交成功，感谢您的订购！<span>15分钟内如您没有支付，我们将自动取消您的订单。</span></p>
+				</div>
+				<div class="order-cont">
+					<table>
+						<tr class="order-t1">
+							<td>订单编号</td>
+							<td>支付金额</td>
+						</tr>
+						<tr class="order-t2">
+							<td>20150827HEGW</td>
+							<td class="order-pl">¥30.0</td>
+						</tr>
+					</table>
+				</div>
+				<div class="order-pay clearfix">
+					<div class="flat">
+						<div>支付平台</div>
+					</div>
+					<div class="zf">
+						<span class="s1"><input type="radio" checked="checked" name="zf" id="zf1"/></span>
+						<label class="zf-img" for="zf1"><img src="../images/ticket/zfb.png"/></label>
+					</div>
+					<div class="zf wxzf">
+						<span class="wxzf-s s1"><input type="radio"  name="zf" id="zf2"/></span>
+						<label class="zf-img wxzf-img" for="zf2"><img src="../images/ticket/wxzf.png"/></label>
+					</div>
+					<div class="qd clearfix">
+						确定无误，支付
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+<script>
+	$(function(){		
+		$("input[name='zf']").click(function(){
+			$a = $(this).parents('.zf').siblings();
+			
+			$a.children('.zf-img').css("border-color","#C9CACB");
+			$a.children('.s1').children().removeAttr("checked");
+			
+			$(this).parent().next().css("border-color","#69247D");
+			
+		})
+		
+	})
+</script>
+</html>
+
+
+
+
