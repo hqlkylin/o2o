@@ -1,0 +1,11 @@
+/**
+ * Created by  on 2015/9/29.
+ * QQ:290147465
+ */
+@import "publicCss/mixin";
+
+li {
+  @include transition(all 1s);
+  @include opacity(1);
+
+}
