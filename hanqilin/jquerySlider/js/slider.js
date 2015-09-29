@@ -27,6 +27,7 @@
 ;
 (function ($) {
 
+
     //对象
     $.Slider = function (element, options) {
         var self = this;
