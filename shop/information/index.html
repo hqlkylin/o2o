@@ -10,7 +10,94 @@
     <link rel="stylesheet" type="text/css" href="../css/base.css"/>
     <link rel="stylesheet" type="text/css" href="../css/information-index.css"/>
     <script src="../js/jquery-11.2.min.js" type="text/javascript" charset="utf-8"></script>
-
+    <script src="../js/slider.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        $(function () {
+            $(".s5").slider({
+                        data: [{
+                            "imgUrl": "../images/information/ct-left.jpg",
+                            "link": "#",
+                            "title": "集美家居1"
+                        },
+                            {
+                                "imgUrl": "../images/information/ct-left.jpg",
+                                "link": "#",
+                                "title": "集美家居2"
+                            },
+                            {
+                                "imgUrl": "../images/information/ct-left.jpg",
+                                "link": "#",
+                                "title": "集美家居4"
+                            },
+                            {
+                                "imgUrl": "../images/information/ct-left.jpg",
+                                "link": "#",
+                                "title": "集美家居3"
+                            }],
+                        width: 343,
+                        height: 427,
+                        isShowTitle: false,
+                        isShowNextAndPrev: true,
+                        isShowControls: true,
+                        speed: 300
+                    }
+            );
+            $(".sell1").slider({
+                        data: [{
+                            "imgUrl": "../images/information/zx-img.jpg",
+                            "link": "#",
+                            "title": "集美家居携手苏宁 钜惠装修季"
+                        },
+                            {
+                                "imgUrl": "../images/information/zx-img.jpg",
+                                "link": "#",
+                                "title": "集美家居携手苏宁 钜惠装修季"
+                            },
+                            {
+                                "imgUrl": "../images/information/zx-img.jpg",
+                                "link": "#",
+                                "title": "集美家居携手苏宁 钜惠装修季"
+                            },
+                            {
+                                "imgUrl": "../images/information/zx-img.jpg",
+                                "link": "#",
+                                "title": "集美家居携手苏宁 钜惠装修季"
+                            }],
+                        width: 526,
+                        height: 281,
+                        isShowTitle: true,
+                        speed: 300
+                    }
+            );
+            $(".rj-left-top").slider({
+                        data: [{
+                            "imgUrl": "../images/information/zx-img.jpg",
+                            "link": "#",
+                            "title": "家居日系搭配技巧 如何展示纯正和风"
+                        },
+                            {
+                                "imgUrl": "../images/information/zx-img.jpg",
+                                "link": "#",
+                                "title": "家居日系搭配技巧 如何展示纯正和风"
+                            },
+                            {
+                                "imgUrl": "../images/information/zx-img.jpg",
+                                "link": "#",
+                                "title": "家居日系搭配技巧 如何展示纯正和风"
+                            },
+                            {
+                                "imgUrl": "../images/information/zx-img.jpg",
+                                "link": "#",
+                                "title": "家居日系搭配技巧 如何展示纯正和风"
+                            }],
+                        width: 380,
+                        height: 336,
+                        isShowTitle: true,
+                        speed: 300
+                    }
+            );
+        })
+    </script>
 </head>
 
 <body>
@@ -85,9 +172,10 @@
 <!--内容start-->
 <div class="wrapper cont">
     <div class="cont-top">
-        <div class="ct-left">
-            <a href="#"><img src="../images/information/ct-left.jpg"/></a>
-        </div>
+        <!--<div class="ct-left">-->
+            <!--<a href="#"><img src="../images/information/ct-left.jpg"/></a>-->
+        <!--</div>-->
+        <div class="slider s5 ct-left"></div>
         <div class="ct-center">
             <div class="ct-cwrap">
                 <div class="ct-center1">
@@ -148,7 +236,7 @@
                         <div class="zx-img"></div>
                     </a>
 
-                    <p class="zx-mes bgbg">
+                    <p class="zx-mes bgbg zx-mes2">
                         <a href="#">[ 装修攻略 ]</a> <a href="#">如何避免在选购家具时犯下大错</a>
                         <i class="icon2"></i>
                     </p>
@@ -200,11 +288,12 @@
         </div>
         <div class="pc">
             <div class="sell">
-                <div class="sell1">
-                    <a href="#"><img src="../images/information/zx-img.jpg"/></a>
+                <!--<div class="sell1">-->
+                    <!--<a href="#"><img src="../images/information/zx-img.jpg"/></a>-->
 
-                    <p><a href="#">集美家居携手苏宁 钜惠装修季</a></p>
-                </div>
+                    <!--<p><a href="#">集美家居携手苏宁 钜惠装修季</a></p>-->
+                <!--</div>-->
+                <div class="slider sell1"></div>
                 <div class="sell2">
                     <div class="sell2-wrap">
                         <div class="sell2-s mb">
@@ -393,8 +482,11 @@
             <div class="gl"></div>
             <div class="rj">
                 <div class="rj-left">
-                    <div class="rj-left-top">
-                        <a href="#"><img src="../images/information/ct-left.jpg"/></a>
+                    <!--<div class="rj-left-top">-->
+                        <!--<a href="#"><img src="../images/information/ct-left.jpg"/></a>-->
+                    <!--</div>-->
+                    <div class="slider rj-left-top">
+                        <div class="rj-m">软装设计</div>
                     </div>
                     <div class="rj-left-bottom">
                         <p class="rj-left-b1"><a href="#">超赞北欧风情,让家纯粹无杂质</a></p>
