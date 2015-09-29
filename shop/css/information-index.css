@@ -84,6 +84,7 @@
     clear: both;
     visibility: hidden;
 }
+
 /*动画暂停*/
 .slider {
     position: relative;
@@ -116,7 +117,11 @@
     background-color: #000;
     padding: 10px;
 }
-.slider .arrow:hover{text-decoration: none;}
+
+.slider .arrow:hover {
+    text-decoration: none;
+}
+
 .slider .arrow.prev {
     left: 0;
 }
@@ -142,7 +147,10 @@
     right: 10px;
 }
 
-.ct-left .controls{right: 123px;}
+.ct-left .controls {
+    right: 123px;
+}
+
 .slider .controls a {
     cursor: pointer;
     border: 2px solid #fff;
@@ -377,12 +385,46 @@
     color: #666;
 }
 
+
+
+
+.cont .ct-right p{
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.cont .ct-right .zx-li.active p {
+    background-color: #6D3885;
+}
+
+.cont .ct-right .zx-li.active .zx-img {
+    display: block;
+
+}
+
+.cont .ct-right .zx-li.active .icon3 {
+    cursor: pointer;
+    height: 7px;
+    width: 13px;
+    background-position: 0 -43px !important;
+    float: right;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+
+.cont .ct-right .zx-li .zx-img img {
+    width: 404px;
+    height: 281px;
+}
+
 .cont .ct-right .zx-li .zx-img {
     border: 10px solid #DFDFDF;
     width: 404px;
     height: 281px;
     overflow: hidden;
-    background: url(../images/information/zx-img.jpg) no-repeat center center;
+    display: none;
 }
 
 .cont .ct-right .zx-li .zx-mes {
@@ -511,18 +553,25 @@
     height: 281px;
     overflow: hidden;
 }
-.promo .pc .sell .sell1 p{font-size: 18px;}
-.promo .pc .sell .sell1 img{width: 526px;
-    height: 281px;}
+
+.promo .pc .sell .sell1 p {
+    font-size: 18px;
+}
+
+.promo .pc .sell .sell1 img {
+    width: 526px;
+    height: 281px;
+}
+
 /*.promo .pc .sell .sell1 p {*/
-    /*padding-left: 10px;*/
-    /*position: absolute;*/
-    /*top: 10px;*/
-    /*left: 0px;*/
-    /*width: 279px;*/
-    /*height: 29px;*/
-    /*line-height: 29px;*/
-    /*background-color: #6D3885;*/
+/*padding-left: 10px;*/
+/*position: absolute;*/
+/*top: 10px;*/
+/*left: 0px;*/
+/*width: 279px;*/
+/*height: 29px;*/
+/*line-height: 29px;*/
+/*background-color: #6D3885;*/
 /*}*/
 
 .promo .pc .sell .sell1 p a {
@@ -836,12 +885,13 @@
     height: 336px;
     overflow: hidden;
 }
-.zx-knowledge .pc .rj .rj-left .rj-left-top .rj-m{
+
+.zx-knowledge .pc .rj .rj-left .rj-left-top .rj-m {
     width: 92px;
     height: 29px;
     line-height: 29px;
     background-color: #6D3885;
-    position:absolute;
+    position: absolute;
     top: 10px;
     left: 0;
     font-size: 18px;
@@ -850,10 +900,12 @@
     z-index: 999;
     text-align: center;
 }
-.zx-knowledge .pc .rj .rj-left .rj-left-top img{
+
+.zx-knowledge .pc .rj .rj-left .rj-left-top img {
     width: 380px;
     height: 336px;
 }
+
 .zx-knowledge .pc .rj .rj-left .rj-left-bottom {
     margin-top: 4px;
     font-family: "microsoft yahei";
