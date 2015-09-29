@@ -14,10 +14,10 @@
  *   isShowTitle: true,--显示标题
  *   isShowControls: true,--显示控制
  *   data: [{
- "imgUrl": "img/1.png",
- "link": "链接",
- "title": "标题"
- }],--数据
+ *   "imgUrl": "img/1.png",
+ *   "link": "链接",
+ *   "title": "标题"
+ *   }],--数据
  *   speed: 600--动画时间/毫秒
  *
  *
@@ -126,7 +126,7 @@
         showA: function () {
             var index = this.index;
             if (index < 0) {
-                index = this.index - 1;
+                index = this.size - 1;
             }
             if (index >= this.size) {
                 index = 0;
