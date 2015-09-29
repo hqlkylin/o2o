@@ -126,7 +126,7 @@
         showA: function () {
             var index = this.index;
             if (index < 0) {
-                index = this.index - 1;
+                index = this.size - 1;
             }
             if (index >= this.size) {
                 index = 0;
