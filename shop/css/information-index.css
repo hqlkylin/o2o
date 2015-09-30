@@ -29,6 +29,7 @@
     float: right;
     margin-right: 10px;
     margin-top: 9px;
+
 }
 
 .icon4 {
@@ -245,7 +246,6 @@
 
 .active {
     color: #fff;
-    background-color: #6d3885;
 }
 
 .active1 {
@@ -411,39 +411,31 @@
     border: 10px solid #DFDFDF;
 }
 .cont .ct-right .zx-li.active .zx-img img{
-    opacity: .5;
+    opacity: 1;
 }
 .cont .ct-right .zx-li.active .icon3 {
     cursor: pointer;
-    height: 7px;
-    width: 13px;
+    height: 13px;
+    width: 7px;
     background-position: 0 -43px !important;
     float: right;
     margin-right: 10px;
     margin-top: 9px;
- 
-  /*  cursor: pointer;
-    height: 13px;
-    width: 7px;
-    background-position: 0 -3px !important;
-    float: right;
-    margin-right: 10px;
-    margin-top: 9px;*/
 
 }
 
 .cont .ct-right .zx-li .zx-img img {
     width: 404px;
     height: 281px;
-    opacity: 0;
+    opacity: 0.3;
     -webkit-transition: all 2s;
     transition: all 2s;
 }
 
 .cont .ct-right .zx-li .zx-img {
-    border: 10px solid #DFDFDF;
+    border: 0px solid #DFDFDF;
     width: 404px;
-    height: 281px;
+    height: 0px;
     overflow: hidden;
 
 }
