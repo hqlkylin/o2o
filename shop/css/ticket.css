@@ -37,7 +37,7 @@ body{background: url(../images/ticket/ticket-bg.png) no-repeat center top #b5011
 .ticket-pop .dialog .box .pop-btn.sure{ float: left;}
 .ticket-pop .dialog .box .pop-btn.cancel{ float: right;}
 .ticket-pop.validate{ display: block;}
-
+ 
 
 @media screen and (max-width:1000px){
 	body{background: url(../images/ticket/ticket-moble-bg.png) no-repeat center top #b50117; background-size: cover;}
