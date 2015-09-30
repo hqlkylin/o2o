@@ -1,5 +1,5 @@
 body{ background: #99cc33;}
-.content{ width: 1200px; height: 430px; margin: 28px auto; padding-top:50px; background: #f1f1f1;}
+.content{ width: 1200px; height: 430px; margin: 65px auto 170px auto; padding-top:50px; background: #f1f1f1;}
 .main{ width: 292px; margin: 0 auto;}
 .main h2{ font-size: 24px; font-weight: normal; color: #6d3885; text-align: center; line-height: 30px;}
 .main input{ font-size: 14px; height: 42px; line-height: 42px;  font-family:"microsoft yahei"; margin-top: 20px; display: block; }
@@ -34,6 +34,7 @@ body{ background: #99cc33;}
 @media screen and (max-width:1000px){
 	body{ background: #f1f1f1;}
 	#header{ display:none;}
+	#footer{ display: none;}
 	.content{ width: 100%; margin: 0; padding-bottom: 0;}
 	.main { width: 90%; height: auto;}
 	.main h2{ font-size: 26px;}
