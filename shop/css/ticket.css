@@ -45,6 +45,7 @@ body{background: url(../images/ticket/ticket-bg.png) no-repeat center top #b5011
 	#header .site-nav .wrapper{ width: 100%;}
 	#header .site-nav .wrapper .FL{ display: none;}
 	#header .site-nav .wrapper .FR span{ display: none;}
+	#footer{ display: none;}
 	.main{ width: 94%; padding-top: 78px;}
 	.ticket-time{ left: 0; width: 90px; height: 72px;}
 	.ticket-time p{ padding-top: 34px; font-size: 14px;}
