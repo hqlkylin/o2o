@@ -7,7 +7,7 @@
 /*头部end*/
 .clearfix:after{display: block;height: 0;content: '';clear: both;}
 /*支付成功 页面--内容部分start*/
-.cont{width: 1200px;margin: 0 auto;}
+.cont{width: 1200px;margin: 0 auto;margin-bottom:300px;}
 .cont .main{width: 325px;margin: 0 auto;text-align: center;padding-top: 116px;}
 .cont .main .tit{color: #80B616;font-size: 19px;margin-bottom: 24px;}
 .cont .main .tit i{max-width:100%;vertical-align:text-bottom;margin-right:2px;background: url(../images/ticket/pay-success.png) no-repeat center center;width:46px;height: 37px;display: inline-block;}
@@ -93,6 +93,11 @@
 /*支付成功 页面--内容部分start*/
 @media screen and (max-width:1000px){
 	.header{display: none;}
+	#header .rect{ display:none;}
+	#header .site-nav .wrapper{ width: 100%;}
+	#header .site-nav .wrapper .FL{ display: none;}
+	#header .site-nav .wrapper .FR span{ display: none;}
+	#footer{ display: none;}
 	.cont{width: 100%;}
 	.cont .main{width: 90%;}
 	.cont .main .tit{font-size: 21px;margin-bottom: 26px;height: 45px;line-height: 45px;}
