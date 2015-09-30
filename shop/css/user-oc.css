@@ -1,20 +1,20 @@
 .right_oc{font-family: "microsoft yahei";font-size: 13px;}
-/*导航start*/
+/*瀵艰埅start*/
 .right_oc .u_w{overflow: hidden;zoom: 1;border-bottom: 2px solid #F1F1F1;margin-top: 33px;}
 .right_oc ul{overflow: hidden;zoom: 1;float: left;}
 .right_oc ul li{float: left;}
 .right_oc ul li a{display: inline-block;font-size: 18px;color: #000;width: 104px;border-right:1px solid #F1F1F1 ;text-align: center;}
 .right_oc ul li a.active{border-bottom: 2px solid #6D3885;color: #6D3885;text-decoration: none;}
 .right_oc ul li a:hover{text-decoration: none;}
-/*导航end*/
+/*瀵艰埅end*/
 
-/*我的订单start*/
+/*鎴戠殑璁㈠崟start*/
 .right_oc .u_w .oc_select{float: right;}
 .right_oc .u_w .oc_select .oc_btn{margin-bottom: 2px;}
 .right_oc .u_w .oc_select .oc_btn input.oc_text{border: 1px solid #CDCDCD;color: #CCCCCC;height:22px;font-size: 14px;padding: 0 5px;}
 .right_oc .u_w .oc_select .oc_btn .oc_sub{border: 1px solid #DEDEDE;border-left: 0;background-color: #F6F5F5;margin-left: -4px;
-width: 23px;height: 24px;line-height: 24px;background: url(../images/user/user-oc-o-search.png) no-repeat center center;
-vertical-align: middle;padding-left: 13px;padding-right: 13px;}
+    width: 23px;height: 24px;line-height: 24px;background: url(../images/user/user-oc-o-search.png) no-repeat center center;
+    vertical-align: middle;padding-left: 13px;padding-right: 13px;}
 
 .oc_list{border-bottom: 1px solid #f1f1f1;overflow: hidden;zoom: 1;padding: 6px 0;}
 .oc_list ul li a{font-size: 13px;}
@@ -37,11 +37,11 @@ vertical-align: middle;padding-left: 13px;padding-right: 13px;}
 .oc_order .oc_cont .oc_cont0 .oc_top .oc_fl{float: left;}
 .oc_order .oc_cont .oc_cont0 .oc_top .oc_fr{float: right;}
 
-.oc_order .oc_cont .oc_cont0 .oc_top .oc_mlr{margin-left: 9px;margin-right: 8px;}
+.oc_order .oc_cont .oc_cont0 .oc_top .oc_mlr{margin-left: 9px;margin-right: 8px;margin-top:9px;}
 .oc_order .oc_cont .oc_cont0 .oc_top .oc_ml{margin-left: 11px;}
 
 .oc_order .oc_cont .oc_cont0 .oc_top .oc_fr a i{display: inline-block;width: 13px;height: 17px;margin-right: 5px;
-vertical-align: text-top;background: url(../images/user/user-oc-order-icon1.png) no-repeat center center;}
+    vertical-align: text-top;background: url(../images/user/user-oc-order-icon1.png) no-repeat center center;}
 .oc_order .oc_cont .oc_cont0 .oc_top .oc_mr{margin-right: 16px;}
 
 
@@ -50,8 +50,9 @@ vertical-align: text-top;background: url(../images/user/user-oc-order-icon1.png)
 .oc_order .oc_cont .oc_cont0 .oc_bottom .oc_bottom_left{float: left;width: 598px;}
 .oc_order .oc_cont .oc_cont0 .oc_bottom .oc_bottom_right{float: right;}
 .oc_order .oc_cont .oc_cont0 .oc_bottom .oc_bottom_left >div{float: left;height: 128px;line-height: 128px;}
-.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_bottom_right >div{float: left;padding-top: 20px;box-sizing:border-box;}
-.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_l{line-height: 1px!important;}
+.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_bottom_left .oc_position{position:relative;}
+.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_bottom_right >div{float: left;box-sizing:border-box;}
+/* .oc_order .oc_cont .oc_cont0 .oc_bottom .oc_l{line-height: 1px!important;} */
 .oc_order .oc_cont .oc_cont0 .oc_bottom .oc_t{text-align: center;}
 .oc_order .oc_cont .oc_cont0 .oc_bottom .oc_blr{border-left: 1px solid #DAD7D7;border-right: 1px solid #DAD7D7;}
 .oc_order .oc_cont .oc_cont0 .oc_bottom .oc_bl{border-left: 1px solid #DAD7D7;}
@@ -65,23 +66,29 @@ vertical-align: text-top;background: url(../images/user/user-oc-order-icon1.png)
 .oc_order .oc_cont .oc_cont0 .oc_bottom .oc_p .oc_p_f{left: -47px;top: 16px;}
 .oc_order .oc_cont .oc_cont0 .oc_bottom .oc_p .oc_p_f a{color: #666;text-decoration: underline;}*/
 
+.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_p{position:relative;}
+/*.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_p div{position: absolute;top: 50%;height: 62px;margin-top: -31px;left:15%;}*/
+/*.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_p div{width:45px;margin:0 auto;margin-top:30%;text-align:center;}*/
+.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_p div{width:45px;height:66px;margin:auto;position:absolute;top:0;right:0;bottom:0;left:0;}
+
 .oc_order .oc_cont .oc_cont0 .oc_bottom .oc_p .oc_p_btn{margin-bottom: 12px;}
-.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_p .oc_p_btn input{border: 1px solid #DAD7D7;background-color: #F1F1F1;padding: 5px;border-radius: 3px;color: #666666;} 
+.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_p .oc_p_btn input{border: 1px solid #DAD7D7;background-color: #F1F1F1;padding: 5px;border-radius: 3px;color: #666666;}
+.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_p .oc_p_f{margin-left:6px;}
 .oc_order .oc_cont .oc_cont0 .oc_bottom .oc_p .oc_p_f a{color: #666;text-decoration: underline;}
 
 
 
-.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_1 .oc_1_img{display:inline-block;margin-top: 14px;margin-left: 14px;}
-.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_1 .oc_1_img img{min-width: 100px;}
-.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_1 .oc_1_f1{position: relative;color: #020202;font-size: 18px;top: -79px;left: 12px;}
-.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_1 .oc_1_f2{position: relative;color: #666666;font-size: 14px;top: -56px;left: -100px;}
-/*我的订单end*/
+.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_1 .oc_1_img{display:inline-block;margin-top: 14px;margin-left: 14px;float:left;}
+.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_1 .oc_1_img img{height: 100px;}
+.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_1 .oc_1_f1{color: #020202;font-size: 18px;display:inline-block;float:left;width:144px;line-height:24px;margin-left:10px;margin-top:12px;}
+.oc_order .oc_cont .oc_cont0 .oc_bottom .oc_1 .oc_1_f2{color: #666666;font-size: 14px;display:inline-block;float:left;width:144px;line-height:24px;margin-left:10px;}
+/*鎴戠殑璁㈠崟end*/
 
 
 .oc_c{color: #666666!important;text-decoration: underline!important;}
 
 
-/*订单跟踪信息start*/
+/*璁㈠崟璺熻釜淇℃伅start*/
 .oc_info .oc_state1{border: 1px solid #DAD7D7;}
 .oc_info .oc_state1 .oc_s_top{background-color: #F1F1F1;height: 32px;line-height: 32px;overflow: hidden;zoom: 1;}
 .oc_info .oc_state1 .oc_s_top > div{float: left;text-align: center;color: #666;}
@@ -118,7 +125,7 @@ vertical-align: text-top;background: url(../images/user/user-oc-order-icon1.png)
 .oc_sum .oc_sum0 .oc_s_n{color: #C02125;font-size: 20px;}
 .oc_sum .oc_sum0 a{display:inline-block;text-align:center;cursor:pointer;background-color: #6D3885;width: 182px;height: 40px;line-height:40px;border: 0 none;color: #fff;font-size: 20px;}
 .oc_sum .oc_sum0 .oc_s_ml{margin-right: 22px;}
-/*订单跟踪信息end*/
+/*璁㈠崟璺熻釜淇℃伅end*/
 
 
 
