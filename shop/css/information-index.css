@@ -386,8 +386,14 @@
 }
 
 
+.cont .ct-right .zx-li{
+    overflow: hidden;
+    /*height: 26px;*/
+}
 
+.cont .ct-right .zx-li.active{
 
+}
 .cont .ct-right p{
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -401,9 +407,12 @@
 
 .cont .ct-right .zx-li.active .zx-img {
     display: block;
-
+    height: 281px;
+    border: 10px solid #DFDFDF;
 }
-
+.cont .ct-right .zx-li.active .zx-img img{
+    opacity: .5;
+}
 .cont .ct-right .zx-li.active .icon3 {
     cursor: pointer;
     height: 7px;
@@ -412,11 +421,23 @@
     float: right;
     margin-right: 10px;
     margin-top: 9px;
+
+  /*  cursor: pointer;
+    height: 13px;
+    width: 7px;
+    background-position: 0 -3px !important;
+    float: right;
+    margin-right: 10px;
+    margin-top: 9px;*/
+
 }
 
 .cont .ct-right .zx-li .zx-img img {
     width: 404px;
     height: 281px;
+    opacity: 0;
+    -webkit-transition: all 2s;
+    transition: all 2s;
 }
 
 .cont .ct-right .zx-li .zx-img {
@@ -424,7 +445,7 @@
     width: 404px;
     height: 281px;
     overflow: hidden;
-    display: none;
+
 }
 
 .cont .ct-right .zx-li .zx-mes {
