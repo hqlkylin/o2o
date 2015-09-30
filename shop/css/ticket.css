@@ -36,7 +36,7 @@ body{background: url(../images/ticket/ticket-bg.png) no-repeat center top #b5011
 .ticket-pop .dialog .box .pop-btn{ background: #e1f1c2; color: #5a7b17; border: 1px solid #a0cf42; width: 43%; font-size: 14px; margin-top: 30px; cursor:pointer;}
 .ticket-pop .dialog .box .pop-btn.sure{ float: left;}
 .ticket-pop .dialog .box .pop-btn.cancel{ float: right;}
-.ticket-pop.validate{ display: block;} 
+.ticket-pop.validate{ display: block;}
 
 
 @media screen and (max-width:1000px){
