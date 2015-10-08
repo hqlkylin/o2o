@@ -988,10 +988,16 @@
 .zx-knowledge .pc .rj .rj-center .rj-cwrap .rj-cw3 ul {
     overflow: hidden;
     zoom: 1;
+    width: 380px;
+    height: 201px;
 }
 
 .zx-knowledge .pc .rj .rj-center .rj-cwrap .rj-cw3 ul > li {
     float: left;
+}
+
+.zx-knowledge .pc .rj .rj-center .rj-cwrap .rj-cw3 ul > li.active .le2 {
+    width: 267px;
 }
 
 .zx-knowledge .pc .rj .rj-center .rj-cwrap .rj-cw3 ul li .left1 {
@@ -1033,12 +1039,19 @@
     height: 147px;
     top: 20px;
     left: 8px;
+
 }
 
 .zx-knowledge .pc .rj .rj-center .rj-cwrap .rj-cw3 .left1 .le2 {
-    width: 267px;
+    width: 0px;
     height: 201px;
     overflow: hidden;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -o-transition: all .8s;
+    transition: all .8s;
+
+
 }
 .zx-knowledge .pc .rj .rj-center .rj-cwrap .rj-cw3 .left1 .le2 img{
     width: 267px;
@@ -1076,6 +1089,8 @@
 .zx-knowledge .pc .rj .rj-right .rj-mt {
     margin-top: 20px;
 }
+
+
 
 /*装修知识end*/
 
