@@ -6,7 +6,7 @@
 
 $(function () {
 
-    $(".accBox li").mouseenter(function () {
+    $(".accBox li,.rj-cw3 li").mouseenter(function () {
 
         $(this).addClass("active").siblings().removeClass("active");
     });
