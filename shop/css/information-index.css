@@ -1221,13 +1221,13 @@ body{
 .listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d1{margin-left: 51px;margin-right: 4px;}
 .listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d2{margin-right: 20px;}
 .listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d4{margin-left: 148px;}
-.listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d5 a{display: inline-block;height:25px;width:32px;margin-right:7px;}
-.listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d5 a i{background:url(../images/information/detail-icon.png) no-repeat;vertical-align:middle;display:inline-block;height:25px;width:32px;}
-.listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d5 i.weixin{background-position: 0 -56px;}
-.listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d5 i.xinlang{background-position: 0 -81px;}
-.listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d5 i.qq{background-position: 0 -156px;}
-.listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d5 i.kongjian{background-position: 0 -131px;}
-.listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d5 i.tengxun{background-position: 0 -106px;}
+/*.listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d5 a{display: inline-block;height:25px;width:32px;margin-right:7px;}*/
+/*.listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d5 a i{background:url(../images/information/detail-icon.png) no-repeat;vertical-align:middle;display:inline-block;height:25px;width:32px;}*/
+/*.listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d5 i.weixin{background-position: 0 -56px;}*/
+/*.listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d5 i.xinlang{background-position: 0 -81px;}*/
+/*.listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d5 i.qq{background-position: 0 -156px;}*/
+/*.listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d5 i.kongjian{background-position: 0 -131px;}*/
+/*.listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-date .dlc-d5 i.tengxun{background-position: 0 -106px;}*/
 .listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-label{margin-left: 52px;margin-top: 15px;}
 .listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-label .dlcl-1{font-size: 16px;color: #595757;margin-right: 6px;}
 .listp .listp-cont .listp-cont-left .detail-l-c .detail-l-c-label .dlcl-2{margin-right:4px;display: inline-block;color: #fff;font-size: 12px;background-color: #99CC33;width: 85px;height: 20px;line-height: 20px;text-align: center;}
