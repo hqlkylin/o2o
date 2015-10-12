@@ -1146,6 +1146,10 @@ body{
 .listp .listp-cont .listp-cont-right .lcr2 ul li{float:left;}
 .listp .listp-cont .listp-cont-right .lcr2 ul li a{display: inline-block;width: 98px;height: 26px;line-height: 26px;
     -webkit-border-radius: 13px;-moz-border-radius: 13px;border-radius: 13px;background-color: #abb3bd;
+    transition:all 0.6s ease 0s;
+    -moz-transition:all 0.6s ease 0s; /* Firefox 4 */
+    -webkit-transition:all 0.6s ease 0s; /* Safari and Chrome */
+    -o-transition:all 0.6s ease 0s; /* Opera */
     font-size: 16px;font-family: "microsoft yahei";color: #fff;text-align: center;margin-right: 10px;margin-bottom: 22px;}
 .lcr2-active{background-color: #f75644!important;}
 .listp .listp-cont .listp-cont-right .lcr2 ul li a:hover{text-decoration: none;}
